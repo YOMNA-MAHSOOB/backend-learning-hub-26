@@ -504,6 +504,14 @@ console.log(typeof "hello") // String
 
 # `undefined` vs `null`
 
+## Comparison
+
+```javascript
+console.log(undefined == null);  // true (loose equality)
+console.log(undefined === null); // false (strict equality - different types)
+```
+
+---
 ## Quick Answer
 - **`undefined`** = JavaScript sets this automatically when something hasn't been assigned
 - **`null`** = You (the programmer) set this intentionally to mean "empty" or "no value"
@@ -557,15 +565,6 @@ data = null; // clearing the data
 ```javascript
 console.log(typeof undefined); // "undefined"
 console.log(typeof null);      // "object" (this is a bug in JavaScript!)
-```
-
----
-
-## Comparison
-
-```javascript
-console.log(undefined == null);  // true (loose equality)
-console.log(undefined === null); // false (strict equality - different types)
 ```
 
 ---
