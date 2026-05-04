@@ -834,10 +834,13 @@ let person = { name: "Alice", age: 30 };
     > user = {}; // ❌ Re-assigning the variable → Error
     >
     >  ```
-      guess the output:
-      let person = { name: "Alice", age: 30 };
+      
+ ###### guess the output:
+ ```javascript
+ let person = { name: "Alice", age: 30 };
       console.log(person.city);
- 
+```
+     
 
 ---
 # **************************
