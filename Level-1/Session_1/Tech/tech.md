@@ -10,8 +10,8 @@
 8. [Statements and Expressions](#8️⃣-statements-and-expressions)
 9. [Strings](#9️⃣-strings)
 10. [Template Literals](#-template-literals)
-11. [Functions and Arrow Functions](#1️⃣1️⃣-functions--arrow-functions)
-12. [Intro to Arrays and Objects](#1️⃣2️⃣-intro-to-arrays-and-objects)
+11. [Intro to Arrays and Objects](#1️⃣1️⃣-intro-to-arrays-and-objects)
+12. [Functions and Arrow Functions](#1️⃣2️⃣-functions--arrow-functions)
 13. [Loops](#1️⃣3️⃣-loops)
 14. [Comments](#1️⃣4️⃣-comments)
 15. [HandsOn & Task](#1️⃣5️⃣-handson--task)
@@ -805,9 +805,24 @@ if (age > 18) {
   console.log(`Hello, ${name}!`); // Output: Hello, John!
 
 ---
-
 # **************************
-# 1️⃣1️⃣ Functions & Arrow Functions
+# 1️⃣1️⃣ Intro to Arrays and Objects
+# **************************
+- **Arrays** store ordered collections:
+
+```javascript
+let fruits = ["Apple", "Banana"];
+```
+
+- **Objects** store key-value pairs:
+
+```javascript
+let person = { name: "Alice", age: 30 };
+```
+
+---
+# **************************
+# 1️⃣2️⃣ Functions & Arrow Functions
 # **************************
 
 #### Syntax Example:
@@ -881,22 +896,7 @@ const arrowGreet = (name) => `Hello, ${name}!`;
 ```
 
 ---
-# **************************
-# 1️⃣2️⃣ Intro to Arrays and Objects
-# **************************
-- **Arrays** store ordered collections:
 
-```javascript
-let fruits = ["Apple", "Banana"];
-```
-
-- **Objects** store key-value pairs:
-
-```javascript
-let person = { name: "Alice", age: 30 };
-```
-
----
 # **************************
 # 1️⃣3️⃣ Loops
 # **************************
