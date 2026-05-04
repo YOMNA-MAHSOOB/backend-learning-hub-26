@@ -486,9 +486,9 @@ JavaScript has several data types, categorized as:
 1. Objects.
 2. Arrays.
 ```javascript
-let num = 10; // Number
-let num = "10"; // String
-let num = false; // Boolean
+var num = 10; // Number
+var num = "10"; // String
+var num = false; // Boolean
 ```
 ```javascript
 let num = 10; // Number
