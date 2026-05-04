@@ -279,9 +279,9 @@ var isStudent = true;
 ## 1\_ `let` vs `var` vs `const` — Key Differences
 
 ### Quick Rule
-✅ **Use `const` by default**
+✅ **Use `let` by default**
 
-✅ **Use `let` when the value will change**
+✅ **Use `const` when the value will not change**
 
 ❌ **Avoid `var` completely**
 
@@ -294,11 +294,24 @@ var isStudent = true;
 * **`var`** = **Function-scoped**
     * Escapes blocks like `if` and `for`:
     ```javascript
+  function test() {
     if (true) {
-      var x = 10;
+        var z = 30;
     }
-    console.log(x); // 10 (works!)
+
+    console.log(z); //  30
+   }
+    
     ```
+    ```javascript
+        function test() {
+          var x = 10;
+      }
+
+      console.log(x); // Error
+  ```
+
+
 
 * **`let`** = **Block-scoped**
     * Stays inside `{}`:
