@@ -820,12 +820,12 @@ let person = { name: "Alice", age: 30 };
 
 
  > note: data members inside objects/arrays in `const` can still change:
-    > ```javascript
+
+     ```javascript
            const user = { name: "Omnia" };
            user.name = "Habiba"; // OK
            user = {}; // ❌ Re-assigning the variable → Error
-   
-    >  ```
+      ```
       
  ###### guess the output:
  ```javascript
