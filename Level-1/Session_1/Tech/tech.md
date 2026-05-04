@@ -532,8 +532,6 @@ function test() {
 }
 console.log(test()); // undefined
 
-let obj = { name: "Ahmed" };
-console.log(obj.age); // undefined (property doesn't exist)
 ```
 
 ### `null`
