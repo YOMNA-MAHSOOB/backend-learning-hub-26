@@ -287,7 +287,7 @@ var isStudent = true;
 
 ---
 
-## The 3 Main Differences
+## The 4 Main Differences
 
 ### 1. Scope
 
