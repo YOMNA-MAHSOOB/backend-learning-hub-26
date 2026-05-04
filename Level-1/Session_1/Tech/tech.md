@@ -631,15 +631,6 @@ console.log(num);
 num -=5;
 console.log(num); 
 ```
-* Boolean logic uses && (AND), || (OR), and ! (NOT).
-
-* Equality operators include == (loose equality) and === (strict equality):
-
-```javascript
-console.log(true && false); // false
-console.log(10 === "10"); // false [val & data type]
-console.log(10 == "10");  // true [val only]
-```
 ---
 # **************************
 # 6️⃣ Operator Precedence
