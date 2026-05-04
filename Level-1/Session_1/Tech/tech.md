@@ -485,7 +485,11 @@ JavaScript has several data types, categorized as:
 - **Non-Primitive**: 
 1. Objects.
 2. Arrays.
-
+```javascript
+let num = 10; // Number
+let num = "10"; // String
+let num = false; // Boolean
+```
 ```javascript
 let num = 10; // Number
 let x; // undefined  
