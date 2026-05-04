@@ -374,13 +374,6 @@ var isStudent = true;
     const c = 5;
     c = 10; // ❌ Error
     ```
-    > But data members inside objects/arrays in `const` can still change:
-    > ```javascript
-    > const user = { name: "Omnia" };
-    > user.name = "Habiba"; // OK
-    > user = {}; // ❌ Re-assigning the variable → Error
-    > ```
-
 ---
 
 ### 4. Hoisting
@@ -832,6 +825,19 @@ let fruits = ["Apple", "Banana"];
 ```javascript
 let person = { name: "Alice", age: 30 };
 ```
+
+
+ > note: data members inside objects/arrays in `const` can still change:
+    > ```javascript
+    > const user = { name: "Omnia" };
+    > user.name = "Habiba"; // OK
+    > user = {}; // ❌ Re-assigning the variable → Error
+    >
+    >  ```
+      guess the output:
+      let person = { name: "Alice", age: 30 };
+      console.log(person.city);
+ 
 
 ---
 # **************************
