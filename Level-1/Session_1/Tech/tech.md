@@ -405,27 +405,6 @@ var isStudent = true;
     ```
 ---
 
-## Classic Example: The Loop Bug
-
-**Problem with `var`:**
-```javascript
-for (var i = 0; i < 3; i++) {
-  setTimeout(() => console.log(i), 100);
-}
-// Prints: 3, 3, 3
-```
-**Fixed with `let:`**
-
-```javaScript
-
-for (let i = 0; i < 3; i++) {
-  setTimeout(() => console.log(i), 100);
-}
-// Prints: 0, 1, 2
-```
-* Note: const cannot be used in loops that change i because const cannot be reassigned.
-
---- 
 
 ## Comparison Table
 
